@@ -40,7 +40,6 @@ const existeProductoPorId = async(id = '') => {
 
 // validar colecciones permitidas 
 const coleccionesPermitidas = (coleccion = '', colecciones = []) => {
-  console.log(coleccion, colecciones)
   const incluida = colecciones.includes(coleccion);
 
   if (!incluida) {
