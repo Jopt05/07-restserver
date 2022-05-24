@@ -82,6 +82,7 @@ const actualizarImagen = async(req, res = response) => {
 
 const actualizarImagenCloudinary = async(req, res = response) => {
 
+    // Comentario 
     const { id, coleccion } = req.params;
 
     let modelo;
